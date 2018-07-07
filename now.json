@@ -1,0 +1,13 @@
+{
+  "alias": "codybrunner-api",
+  "dotenv": true,
+  "files": [
+    "./api",
+    "./views",
+    ".env",
+    ".env.example",
+    "package.json",
+    "yarn.lock"
+  ],
+  "name": "codybrunner-api"
+}
