@@ -185,14 +185,14 @@ module.exports = data => `
   <!-- My Styles : BEGIN -->
   <style>
     body {
-      background-color: #BFD8D2;
+      background-color: #fff;
       margin: 0;
       mso-line-height-rule: exactly;
       width: 100%;
     }
 
     center {
-      background-color: #BFD8D2;
+      background-color: #fff;
       text-align: left;
       width: 100%;
     }
@@ -204,7 +204,7 @@ module.exports = data => `
     }
 
     h1 {
-      color: #DF744A;
+      color: #000;
       font-family: 'Courgette', cursive;
       font-size: 24px;
       font-weight: normal;
@@ -217,8 +217,8 @@ module.exports = data => `
     }
 
     .email-body {
-      background-color: #fedcd2;
-      color: #DF744A;
+      background-color: #fff;
+      color: #000;
       font-family: 'Nunito', sans-serif;
       font-size: 15px;
       line-height: 20px;
@@ -227,7 +227,7 @@ module.exports = data => `
     }
 
     .email-header {
-      background-color: #fedcd2;
+      background-color: #fff;
       padding: 40px 40px 20px;
       text-align: left;
     }
@@ -250,7 +250,7 @@ module.exports = data => `
     <table role="presentation" cellspacing="0" cellpadding="0" border="0" align="center" class="email-container">
       <tr>
         <td style="padding: 20px 0; text-align: center">
-          <img src="https://res.cloudinary.com/mashaeltsovaphotography/c_scale,dpr_auto,f_auto,q_auto:best,w_300/watermark.png" alt="masha-eltsova-photography logo">
+          <h1>CodyBrunner.me</h1>
         </td>
       </tr>
     </table>
