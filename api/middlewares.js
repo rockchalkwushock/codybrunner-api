@@ -15,11 +15,15 @@ require('dotenv-safe').load()
 module.exports = app => {
   app.use(compression())
   app.use(bodyParser.json())
-  app.use(bodyParser.urlencoded({ extended: true }))
+  app.use(
+    bodyParser.urlencoded({
+      extended: true
+    })
+  )
   app.use(helmet())
   app.use(
     cors({
-      methods: 'GET',
+      methods: ['GET', 'POST'],
       origin: process.env.DOMAINS
     })
   )

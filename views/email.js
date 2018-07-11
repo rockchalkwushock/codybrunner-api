@@ -246,15 +246,6 @@ module.exports = data => `
 
 <body>
   <center>
-    <!-- Email Header : BEGIN -->
-    <table role="presentation" cellspacing="0" cellpadding="0" border="0" align="center" class="email-container">
-      <tr>
-        <td style="padding: 20px 0; text-align: center">
-          <h1>CodyBrunner.me</h1>
-        </td>
-      </tr>
-    </table>
-    <!-- Email Header : END -->
     <!-- Email Body : BEGIN -->
     <table role="presentation" cellspacing="0" cellpadding="0" border="0" align="center" class="email-container">
       <!-- Header -->
